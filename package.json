@@ -1,0 +1,20 @@
+{
+  "name": "system6-aquaculture-platform",
+  "private": true,
+  "scripts": {
+    "check": "npm run frontend:format:check && npm run frontend:lint && npm run frontend:type-check && npm run frontend:test && npm run frontend:build && npm run backend:format:check && npm run backend:lint && npm run backend:type-check && npm run backend:test",
+    "format": "npm run frontend:format && npm run backend:format",
+    "frontend:dev": "npm --prefix frontend run dev",
+    "frontend:build": "npm --prefix frontend run build",
+    "frontend:lint": "npm --prefix frontend run lint",
+    "frontend:format": "npm --prefix frontend run format",
+    "frontend:format:check": "npm --prefix frontend run format:check",
+    "frontend:test": "npm --prefix frontend run test:unit -- --run",
+    "frontend:type-check": "npm --prefix frontend run type-check",
+    "backend:format": "uv --directory backend run ruff format .",
+    "backend:format:check": "uv --directory backend run ruff format --check .",
+    "backend:lint": "uv --directory backend run ruff check .",
+    "backend:type-check": "uv --directory backend run mypy src",
+    "backend:test": "uv --directory backend run pytest"
+  }
+}
