@@ -81,31 +81,29 @@ function renderContent(content: string): string {
 </script>
 
 <template>
-  <el-card shadow="hover" class="agent-panel" aria-label="智能体对话">
-    <template #header>
-      <div class="panel-header">
-        <div class="header-left">
-          <el-icon :size="20" class="agent-icon" aria-hidden="true"><Cpu /></el-icon>
-          <h3>渔智 · 智能养殖助手</h3>
-          <el-tag
-            v-if="agent.agentStatus !== 'unknown'"
-            :type="agent.agentStatus === 'online' ? 'success' : 'info'"
-            size="small"
-          >
-            {{ agent.agentStatus === 'online' ? 'AI 在线' : '规则引擎' }}
-          </el-tag>
-        </div>
-        <el-button
-          v-if="agent.hasMessages"
-          text
+  <div class="agent-panel" role="region" aria-label="智能体对话">
+    <div class="panel-header">
+      <div class="header-left">
+        <el-icon :size="20" class="agent-icon" aria-hidden="true"><Cpu /></el-icon>
+        <h3>渔智 · 智能养殖助手</h3>
+        <el-tag
+          v-if="agent.agentStatus !== 'unknown'"
+          :type="agent.agentStatus === 'online' ? 'success' : 'info'"
           size="small"
-          :icon="Delete"
-          @click="agent.clearSession()"
         >
-          清空对话
-        </el-button>
+          {{ agent.agentStatus === 'online' ? 'AI 在线' : '规则引擎' }}
+        </el-tag>
       </div>
-    </template>
+      <el-button
+        v-if="agent.hasMessages"
+        text
+        size="small"
+        :icon="Delete"
+        @click="agent.clearSession()"
+      >
+        清空对话
+      </el-button>
+    </div>
 
     <!-- Chat messages -->
     <div ref="chatContainer" class="chat-container">
@@ -226,7 +224,7 @@ function renderContent(content: string): string {
         />
       </div>
     </div>
-  </el-card>
+  </div>
 </template>
 
 <style scoped>
@@ -240,6 +238,9 @@ function renderContent(content: string): string {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: var(--sp-3, 12px) 0;
+  border-bottom: 1px solid var(--border, #dcdfe6);
+  margin-bottom: var(--sp-3, 12px);
 }
 
 .header-left {

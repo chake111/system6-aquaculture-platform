@@ -181,7 +181,8 @@
 .console {
   display: grid;
   grid-template-columns: var(--sidebar-width) 1fr;
-  min-height: 100vh;
+  height: 100vh;
+  overflow: hidden;
   background: var(--bg);
 }
 
@@ -191,6 +192,7 @@
   padding: var(--sp-6) var(--sp-4) var(--sp-4);
   background: var(--nav);
   color: var(--nav-text);
+  overflow-y: auto;
   z-index: 1;
 }
 
@@ -293,7 +295,9 @@
 }
 
 .workspace {
-  padding: var(--sp-8);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
   position: relative;
   z-index: 0;
 }
@@ -303,7 +307,15 @@
   justify-content: space-between;
   align-items: center;
   gap: var(--sp-6);
-  margin-bottom: var(--sp-6);
+  padding: var(--sp-6) var(--sp-8);
+  flex-shrink: 0;
+  background: var(--bg);
+}
+
+.workspace-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0 var(--sp-8) var(--sp-8);
 }
 
 .topbar h1 {

@@ -145,7 +145,9 @@ async function exit() {
           </button>
         </div>
       </header>
-      <RouterView />
+      <div class="workspace-content">
+        <RouterView />
+      </div>
     </main>
   </div>
 </template>

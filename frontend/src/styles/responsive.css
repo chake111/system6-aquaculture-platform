@@ -303,12 +303,17 @@
   }
 
   .workspace {
-    padding: var(--sp-5) var(--sp-4) var(--sp-6);
+    padding: 0;
+  }
+
+  .workspace-content {
+    padding: 0 var(--sp-4) var(--sp-6);
   }
 
   .topbar {
     align-items: start;
     flex-direction: column;
+    padding: var(--sp-4);
   }
 
   .metric-row {
@@ -378,6 +383,11 @@
 
   .workspace {
     padding: 0;
+  }
+
+  .workspace-content {
+    padding: 0;
+    overflow: visible;
   }
 
   .dashboard,
