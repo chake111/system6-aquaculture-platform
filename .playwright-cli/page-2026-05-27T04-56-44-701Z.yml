@@ -1,0 +1,32 @@
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e5]: AQ
+    - heading "智慧水产养殖监测与调控平台" [level=1] [ref=e6]
+    - paragraph [ref=e7]: 惠州养殖基地现场演示控制台
+    - generic [ref=e8]:
+      - strong [ref=e9]: 演示边界
+      - paragraph [ref=e10]: 外部观测用于界面验证；调控、收益与处置均为模拟、未验证，不代表真实塘口效果。
+  - region "演示登录" [ref=e11]:
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - paragraph [ref=e14]: 现场入口
+        - heading "演示账号" [level=2] [ref=e15]
+      - button "高对比模式" [ref=e16] [cursor=pointer]
+    - paragraph [ref=e17]: 语音输入不可用时可使用大按钮操作
+    - generic [ref=e18]:
+      - article [ref=e19]:
+        - button "养殖户 现场告警处置与反馈 进入控制台" [ref=e20] [cursor=pointer]:
+          - strong [ref=e21]: 养殖户
+          - generic [ref=e22]: 现场告警处置与反馈
+          - generic [ref=e23]: 进入控制台
+      - article [ref=e24]:
+        - button "技术员 读数复核与分析报告 进入控制台" [ref=e25] [cursor=pointer]:
+          - strong [ref=e26]: 技术员
+          - generic [ref=e27]: 读数复核与分析报告
+          - generic [ref=e28]: 进入控制台
+      - article [ref=e29]:
+        - button "管理员 审计与运维证据 进入控制台" [ref=e30] [cursor=pointer]:
+          - strong [ref=e31]: 管理员
+          - generic [ref=e32]: 审计与运维证据
+          - generic [ref=e33]: 进入控制台
+    - paragraph [ref=e34]: 离线演示授权有效；重要生产操作仍需现场人工确认。

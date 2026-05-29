@@ -1,0 +1,168 @@
+:root {
+  color: var(--text);
+  background: var(--bg);
+  font-family: Inter, 'Noto Sans SC', 'Microsoft YaHei', Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: geometricPrecision;
+  --nav: #073640;
+  --nav-raised: #10505c;
+  --nav-text: #e5f3f3;
+  --nav-text-dim: #cce0e0;
+  --nav-accent: #42b7ae;
+  --nav-surface: #092f37;
+  --accent: #087f78;
+  --accent-dark: #05635e;
+  --surface: #ffffff;
+  --surface-soft: #edf4f5;
+  --line: #688088;
+  --muted: #4f656d;
+  --text: #112d35;
+  --danger: #b54732;
+  --danger-text: #993c3c;
+  --danger-soft: #fff1ed;
+  --warning-contrast: #966a08;
+  --warning-text: #6d5a1e;
+  --warning-soft: #fff6e9;
+  --success: #08715d;
+  --success-text: #3d7a1e;
+  --bg: #f3f7f8;
+
+  /* Element Plus base color overrides */
+  --el-color-primary: #087f78;
+  --el-color-primary-light-3: #3a9e98;
+  --el-color-primary-light-5: #6bbdb9;
+  --el-color-primary-light-7: #9ddddb;
+  --el-color-primary-light-8: #b6ece9;
+  --el-color-primary-light-9: #d5f5f4;
+  --el-color-primary-dark-2: #066560;
+  --el-color-success: #08715d;
+  --el-color-success-light-3: #2e9580;
+  --el-color-success-light-5: #5fb9a3;
+  --el-color-success-light-7: #90dcc7;
+  --el-color-success-light-8: #aeecda;
+  --el-color-success-light-9: #d5f5ee;
+  --el-color-success-dark-2: #065a4b;
+  --el-color-danger: #b54732;
+  --el-color-danger-light-3: #cc7560;
+  --el-color-danger-light-5: #d9a090;
+  --el-color-danger-light-7: #e6c0b3;
+  --el-color-danger-light-8: #f0d6cc;
+  --el-color-danger-light-9: #f8ebe6;
+  --el-color-danger-dark-2: #913928;
+  --el-color-warning: #966a08;
+  --el-color-warning-light-3: #b89030;
+  --el-color-warning-light-5: #d0b060;
+  --el-color-warning-light-7: #e0cc90;
+  --el-color-warning-light-8: #eadcb0;
+  --el-color-warning-light-9: #f5ecd0;
+  --el-color-warning-dark-2: #785506;
+  --el-color-info: #4f656d;
+  --el-color-info-light-3: #7a8e94;
+  --el-color-info-light-5: #a0b0b4;
+  --el-color-info-light-7: #c0ced1;
+  --el-color-info-light-8: #d5e0e2;
+  --el-color-info-light-9: #eaf0f1;
+  --el-color-info-dark-2: #3f5158;
+
+  /* Element Plus core token overrides */
+  --el-text-color-regular: var(--text);
+  --el-text-color-secondary: var(--muted);
+  --el-text-color-placeholder: var(--muted);
+  --el-border-color: var(--line);
+  --el-border-color-light: var(--line);
+  --el-border-color-lighter: var(--line);
+  --el-bg-color: var(--bg);
+  --el-fill-color: var(--surface-soft);
+  --el-fill-color-light: var(--surface-soft);
+  --el-fill-color-lighter: var(--surface-soft);
+  --el-fill-color-blank: var(--surface);
+  --el-border-radius-base: var(--radius-sm);
+
+  /* Element Plus hover/variant overrides */
+  --warning-hover: #856007;
+  --danger-hover: #993c2a;
+  --primary-tag-text: #066560;
+
+  /* sidebar brand & accents */
+  --nav-brand-bg: #e7f6f3;
+  --nav-brand-sm-bg: #5bbec4;
+  --nav-brand-sm-text: #073640;
+  --nav-strong: #f5ffff;
+  --nav-subtle: #9ec4c7;
+  --nav-icon: #dff0f0;
+  --nav-status: #dceaea;
+  --nav-status-subtle: #b0d6d9;
+  --online-dot: #2bc48a;
+  --role-tag-bg: #e2f3f1;
+
+  /* banner & alert contextual colors */
+  --warning-banner-border: #8a7040;
+  --warning-banner-text: #754613;
+  --source-banner-border: #3a8a7f;
+  --source-banner-bg: #e9f6f4;
+  --source-banner-text: #124b4d;
+  --source-banner-subtle: #3d5a60;
+  --risk-text: #7a5510;
+  --alert-border: #6a4a30;
+  --alert-heading: #6b2e1e;
+  --alert-subtext: #6b3f2f;
+  --alert-status: #523020;
+  --recommendation-text: #2b464c;
+  --field-hint-text: #2b464c;
+
+  /* toggle & intro */
+  --toggle-border: #758f95;
+  --toggle-text: #284850;
+  --intro-text: #35515a;
+  --muted-btn-border: #6e8f96;
+  --muted-btn-bg: #f3f9f9;
+  --hover-teal: #f2fbfa;
+  --white: #fff;
+  --nav-contrast: #002b34;
+  --radius: 14px;
+  --radius-lg: 20px;
+  --radius-sm: 10px;
+  --radius-xs: 9px;
+  --shadow: 0 8px 24px rgba(8, 41, 49, 0.06);
+
+  /* typographic scale */
+  --font-xs: 12px;
+  --font-sm: 13px;
+  --font-base: 14px;
+  --font-lg: 16px;
+  --font-xl: 18px;
+  --font-2xl: 20px;
+  --font-4xl: 27px;
+
+  /* font weight scale */
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-extrabold: 800;
+
+  /* spacing scale */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 20px;
+  --sp-6: 24px;
+  --sp-8: 32px;
+  --sp-10: 40px;
+  --sp-12: 48px;
+  --sp-touch: 44px;
+
+  /* component dimensions */
+  --online-dot-size: 9px;
+  --do-indicator-size: 10px;
+  --spinner-size: 14px;
+  --brand-mark-size: 58px;
+  --brand-mark-sm-size: 42px;
+  --brand-logo-size: 64px;
+  --sidebar-logo-size: 42px;
+  --sidebar-width: 242px;
+  --menu-link-height: 52px;
+  --role-button-height: 76px;
+  --large-action-height: 54px;
+}

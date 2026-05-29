@@ -1,0 +1,57 @@
+[  697367ms] [LOG] [vite] server connection lost. Polling for restart... @ http://127.0.0.1:4173/@vite/client:992
+[17018620ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://127.0.0.1:4173/api/v1/ponds/pond-ref/readings:0
+[17018621ms] [WARNING] [Vue warn]: Unhandled error during execution of mounted hook 
+  at <MonitoringView onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) > > 
+  at <RouterView> 
+  at <AppShellView onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) > > 
+  at <RouterView> 
+  at <App> @ http://127.0.0.1:4173/@vite/client:524
+[17018624ms] Error: API request failed: 401
+    at request (http://127.0.0.1:4173/src/stores/platform.ts:66:27)
+    at async Proxy.loadObservations (http://127.0.0.1:4173/src/stores/platform.ts:134:18)
+    at async http://127.0.0.1:4173/src/views/MonitoringView.vue:11:5
+[17230450ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://127.0.0.1:4173/api/v1/ponds/pond-ref/readings:0
+[17230450ms] [WARNING] [Vue warn]: Unhandled error during execution of mounted hook 
+  at <MonitoringView onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) > > 
+  at <RouterView> 
+  at <AppShellView onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) > > 
+  at <RouterView> 
+  at <App> @ http://127.0.0.1:4173/@vite/client:524
+[17230450ms] Error: API request failed: 401
+    at request (http://127.0.0.1:4173/src/stores/platform.ts:66:27)
+    at async Proxy.loadObservations (http://127.0.0.1:4173/src/stores/platform.ts:134:18)
+    at async http://127.0.0.1:4173/src/views/MonitoringView.vue?t=1779875405477:11:5
+[17365421ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://127.0.0.1:4173/api/v1/ponds/pond-ref/readings:0
+[17365421ms] [WARNING] [Vue warn]: Unhandled error during execution of mounted hook 
+  at <MonitoringView onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) > > 
+  at <RouterView> 
+  at <AppShellView onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) > > 
+  at <RouterView> 
+  at <App> @ http://127.0.0.1:4173/@vite/client:524
+[17365421ms] Error: API request failed: 401
+    at request (http://127.0.0.1:4173/src/stores/platform.ts:66:27)
+    at async Proxy.loadObservations (http://127.0.0.1:4173/src/stores/platform.ts:134:18)
+    at async http://127.0.0.1:4173/src/views/MonitoringView.vue?t=1779875540445:11:5
+[17365471ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://127.0.0.1:4173/api/v1/ponds/pond-ref/readings:0
+[17365472ms] [WARNING] [Vue warn]: Unhandled error during execution of mounted hook 
+  at <MonitoringView onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) > > 
+  at <RouterView> 
+  at <AppShellView onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) > > 
+  at <RouterView> 
+  at <App> @ http://127.0.0.1:4173/@vite/client:524
+[17365472ms] Error: API request failed: 401
+    at request (http://127.0.0.1:4173/src/stores/platform.ts?t=1779875540445:68:27)
+    at async Proxy.loadObservations (http://127.0.0.1:4173/src/stores/platform.ts?t=1779875540445:137:18)
+    at async http://127.0.0.1:4173/src/views/MonitoringView.vue?t=1779875540445:11:5
+[17410633ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://127.0.0.1:4173/api/v1/ponds/pond-ref/readings:0
+[17410633ms] [WARNING] [Vue warn]: Unhandled error during execution of mounted hook 
+  at <MonitoringView onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) > > 
+  at <RouterView> 
+  at <AppShellView onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) > > 
+  at <RouterView> 
+  at <App> @ http://127.0.0.1:4173/@vite/client:524
+[17410634ms] Error: API request failed: 401
+    at request (http://127.0.0.1:4173/src/stores/platform.ts?t=1779875540445:68:27)
+    at async Proxy.loadObservations (http://127.0.0.1:4173/src/stores/platform.ts?t=1779875540445:137:18)
+    at async http://127.0.0.1:4173/src/views/MonitoringView.vue?t=1779875540445:11:5
+[17466647ms] [LOG] [vite] server connection lost. Polling for restart... @ http://127.0.0.1:4173/@vite/client:992

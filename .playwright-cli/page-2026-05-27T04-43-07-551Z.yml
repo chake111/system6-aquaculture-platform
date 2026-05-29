@@ -1,0 +1,68 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: AQ
+      - generic [ref=e7]:
+        - strong [ref=e8]: 水产现场台
+        - generic [ref=e9]: 惠州 50 亩基地
+    - navigation "业务菜单" [ref=e10]:
+      - link "概 综合仪表盘" [ref=e11] [cursor=pointer]:
+        - /url: /dashboard
+        - generic [ref=e12]: 概
+        - text: 综合仪表盘
+      - link "水 水质监测" [ref=e13] [cursor=pointer]:
+        - /url: /monitoring
+        - generic [ref=e14]: 水
+        - text: 水质监测
+      - link "密 密度调控" [ref=e15] [cursor=pointer]:
+        - /url: /density
+        - generic [ref=e16]: 密
+        - text: 密度调控
+      - link "警 预警中心" [ref=e17] [cursor=pointer]:
+        - /url: /alerts
+        - generic [ref=e18]: 警
+        - text: 预警中心
+      - link "报 效益报表" [ref=e19] [cursor=pointer]:
+        - /url: /reports
+        - generic [ref=e20]: 报
+        - text: 效益报表
+      - link "维 运维管理" [ref=e21] [cursor=pointer]:
+        - /url: /operations
+        - generic [ref=e22]: 维
+        - text: 运维管理
+    - generic [ref=e23]:
+      - text: 演示环境在线
+      - generic [ref=e25]: simulation 可追踪
+  - generic [ref=e26]:
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - paragraph [ref=e29]: 现场运营控制台
+        - heading "运维管理" [level=1] [ref=e30]
+      - generic [ref=e31]:
+        - button "高对比模式" [ref=e32] [cursor=pointer]
+        - generic [ref=e33]: 管理员
+        - button "退出" [ref=e34] [cursor=pointer]
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - strong [ref=e37]: 审计与运维
+        - generic [ref=e38]: 管理员专属视图 · 演示环境证据清单
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - heading "节点与服务状态" [level=2] [ref=e41]
+          - generic [ref=e42]: simulation
+        - article [ref=e43]:
+          - strong [ref=e44]: 边缘节点 HZ-EDGE-01
+          - generic [ref=e45]: 在线（模拟）
+          - generic [ref=e46]: 最后同步 2 分钟前
+        - article [ref=e47]:
+          - strong [ref=e48]: 告警通知适配器
+          - generic [ref=e49]: 演练模式
+          - generic [ref=e50]: 短信/语音未真实发送
+        - article [ref=e51]:
+          - strong [ref=e52]: 归档队列
+          - generic [ref=e53]: 待审批
+          - generic [ref=e54]: 保留演示审计记录
+      - generic [ref=e55]:
+        - heading "归档控制" [level=2] [ref=e56]
+        - paragraph [ref=e57]: 归档仅记录审批与证据；演示环境不执行真实数据销毁。
+        - button "登记模拟归档审批" [ref=e58] [cursor=pointer]

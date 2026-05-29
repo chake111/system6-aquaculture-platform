@@ -1,0 +1,70 @@
+- generic [ref=e35]:
+  - complementary [ref=e36]:
+    - generic [ref=e37]:
+      - generic [ref=e38]: AQ
+      - generic [ref=e39]:
+        - strong [ref=e40]: 水产现场台
+        - generic [ref=e41]: 惠州 50 亩基地
+    - navigation "业务菜单" [ref=e42]:
+      - link "概 综合仪表盘" [ref=e43] [cursor=pointer]:
+        - /url: /dashboard
+        - generic [ref=e44]: 概
+        - text: 综合仪表盘
+      - link "水 水质监测" [ref=e45] [cursor=pointer]:
+        - /url: /monitoring
+        - generic [ref=e46]: 水
+        - text: 水质监测
+      - link "密 密度调控" [ref=e47] [cursor=pointer]:
+        - /url: /density
+        - generic [ref=e48]: 密
+        - text: 密度调控
+      - link "警 预警中心" [ref=e49] [cursor=pointer]:
+        - /url: /alerts
+        - generic [ref=e50]: 警
+        - text: 预警中心
+      - link "报 效益报表" [ref=e51] [cursor=pointer]:
+        - /url: /reports
+        - generic [ref=e52]: 报
+        - text: 效益报表
+    - generic [ref=e53]:
+      - text: 演示环境在线
+      - generic [ref=e55]: simulation 可追踪
+  - generic [ref=e56]:
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - paragraph [ref=e59]: 现场运营控制台
+        - heading "综合仪表盘" [level=1] [ref=e60]
+      - generic [ref=e61]:
+        - button "高对比模式" [ref=e62] [cursor=pointer]
+        - generic [ref=e63]: 技术员
+        - button "退出" [ref=e64] [cursor=pointer]
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - strong [ref=e67]: 演示数据隔离提示
+        - generic [ref=e68]: 塘口告警、建议和增氧执行为 simulation，未经现场传感器或效果核验。
+      - generic [ref=e69]:
+        - article [ref=e70]:
+          - generic [ref=e71]: 外部参考站点
+          - strong [ref=e72]: USGS 01463500
+          - generic [ref=e73]: external_observation
+        - article [ref=e74]:
+          - generic [ref=e75]: 外部观测记录
+          - strong [ref=e76]: 24 条
+          - generic [ref=e77]: 非塘口生产数据
+        - article [ref=e78]:
+          - generic [ref=e79]: 塘口演练告警
+          - strong [ref=e80]: 待注入
+          - generic [ref=e81]: simulation / 未验证
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - generic [ref=e84]:
+            - paragraph [ref=e85]: 低溶氧演练
+            - heading "增氧处置闭环" [level=2] [ref=e86]
+          - generic [ref=e87]: simulation
+        - paragraph [ref=e88]: 本控件仅模拟处置流转，不会控制真实增氧机，也不证明溶氧改善。
+        - paragraph [ref=e89]: 养殖户账号可发起模拟处置；当前账号可查看后续复核记录。
+      - generic [ref=e90]:
+        - heading "数据使用边界" [level=2] [ref=e92]
+        - paragraph [ref=e93]: 外部官方观测 / 非塘口生产数据仅供曲线、溯源和展示校验，不参与本演练的控制决策。
+        - link "查看 24 条官方外部观测" [ref=e94] [cursor=pointer]:
+          - /url: /monitoring
